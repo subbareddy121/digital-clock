@@ -1,0 +1,229 @@
+.main{
+    background-color: rgb(34, 34, 180);
+    margin: 20px 125px 70px 70px;
+        margin-left: 175px;
+        height: 615px;
+}
+.ig{
+    display: flex;
+}
+.img{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.cloc{
+    color: white;
+    margin-left: 15px;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 137px;
+    margin-top: -78px;  
+}
+.tme{
+    margin-right: 20px;
+    color: #000;
+}
+.clock{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0px 30px #FFFFFF;
+    
+    
+}
+.clock div{
+    position: relative;
+    background-color: #F6E2FF;
+    height: 50px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 40px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #0a0a0a;
+}
+#session{
+    margin-left: 20px;
+    background-color: #FC5EFF;
+    font-size: 40px;
+}
+
+
+
+.main2{
+background-color: whitesmoke;
+height: 192px;
+    width: 460px;
+    margin-top: 270px;
+    margin-left: -80px;
+    border-radius: 15px;
+}
+.wake{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.wak{
+    color: black;
+    margin-top: -165px;
+    margin-left: 45px;
+}
+.wake2{
+    
+    margin-top: 1px;
+        margin-left: 4px;
+}
+.wak2{
+    color: black;
+    margin-top: -49px;
+    margin-left: 45px;
+}
+.wake3{
+    
+    margin-top: 2px;
+        margin-left: 4px;
+}
+.wak3{
+    color: black;
+    margin-top: -51px;
+    margin-left: 45px;
+}
+
+.opt1{
+    position: absolute;
+    margin-left: 324PX;
+    margin-top: -51PX;
+}
+
+
+.opt2{
+    position: absolute;
+    margin-left: 324PX;
+    margin-top: -52PX;
+}
+
+
+.opt3{
+    position: absolute;
+    margin-left: 324PX;
+    margin-top: -52PX;
+}
+#gd{
+    background-color: blueviolet;
+    width: 387px;
+    height: 120px;
+    margin-left: -79px;
+    margin-top: 27px;
+    padding: 1px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+#lnch{
+    background-image: url(def.jpg);
+    background-size: cover;
+    color: blue;
+    background-color: white;
+    position: absolute;
+    width: 450px;
+    height: 310px;
+    margin-left: 455px;
+    margin-top: -160px;
+    padding: 26px;
+    border-radius: 30px;
+}
+#bgimage{
+    height: 275px;
+        width: 503px;
+        margin-top: -102px;
+        position: absolute;
+        margin-left:180px ;
+        border-radius: 30px;
+}
+.btn{
+    background-image: linear-gradient(to right, rgb(96, 83, 234), rgb(238, 176, 176));
+    width: 237px;
+    height: 30px;
+    margin-left: -79px;
+    margin-top: 27px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-position: right center; /* change the direction of the change here */
+    background-image: linear-gradient(to right,rgb(238, 176, 176) 0%,lightpink 31%, rgb(96, 83, 234)100%);
+  }
+
+  #unique{
+    width: 370px;
+    padding: 12px;
+    background:#FFFFFF;
+    color: black;
+    opacity: 0.6;
+    margin-top: 20px;
+    border-radius: 10px; 
+    display: none; 
+    font-size: 20px;
+    margin-left: -70px;
+}
+
+
+#shdw{
+    width: 22%;
+    height: 10%;
+    position: absolute;
+    top: 196px;
+    margin: auto;
+    opacity: 0.3;
+    border-radius: 10px;
+    background-color: violet;
+    margin-left: 102px;
+}
+#shdw1{
+    width: 35%;
+    height: 8%;
+    position: absolute;
+    top: 194px;
+    margin: auto;
+    opacity: 0.5;
+    border-radius: 10px;
+    background-color: #ee82d2;
+    margin-left: 44px;
+}
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:680px) {
+    .main{
+        background-color: rgb(34, 34, 180);
+        margin: 20px 125px 70px 70px;
+            margin-left: -8px;
+            height: 705px;
+            width: 335%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1100px) {
+    .main{
+    background-color: rgb(34, 34, 180);
+    margin: 20px 125px 70px 70px;
+    margin-left: -6px;
+    height: 727px;
+    width: 150%;   
+}
